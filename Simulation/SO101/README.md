@@ -1,3 +1,8 @@
+> **ArmDojo copy for SO-ARM101 kit owners.** This repository is ArmDojo's fork of the open-source SO-100 / SO-101 arm project (Apache-2.0, see [LICENSE](../../LICENSE)). The files are kept as in the original project.
+> - **URDF / MuJoCo simulation model of the SO-101:** [this folder](.) — download everything with **Code → Download ZIP**.
+> - **Kits, servos and spare parts:** [armdojo.com](https://armdojo.com/?utm_source=github&utm_medium=referral&utm_campaign=so-arm100-fork) · [SO-ARM101 LeRobot kit](https://armdojo.com/products/so-arm101-lerobot-robot-arm-kit?utm_source=github&utm_medium=referral&utm_campaign=so-arm100-fork)
+> - **Help:** info@armdojo.com · [ArmDojo Discord](https://discord.gg/MdyRuJVFAm)
+
 # SO101 Robot - URDF and MuJoCo Description
 
 This repository contains the URDF and MuJoCo (MJCF) files for the SO101 robot.
