@@ -4,6 +4,13 @@
 > - **Tutorial videos & downloads:** [armdojo.com/pages/so-arm101-downloads](https://armdojo.com/pages/so-arm101-downloads?utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo)
 > - **Help:** info@armdojo.com · [ArmDojo Discord](https://discord.gg/MdyRuJVFAm)
 
+
+## Video tutorials & downloads (ArmDojo SO-ARM101 kit)
+
+- **16 step-by-step English videos:** software setup on Windows or Ubuntu, follower and leader arm assembly, cameras, wiring, servo IDs, calibration, teleoperation, dataset recording and training on a cloud GPU, plus the user manual and every download: [SO-ARM101 Tutorials & Downloads](https://armdojo.com/pages/so-arm101-downloads?utm_source=github&utm_medium=readme&utm_campaign=so-arm101-tutorials)
+- **Written step-by-step version** with all 16 videos embedded: [SO-ARM101 setup tutorial](https://armdojo.com/blogs/guides/so-arm101-setup-video-tutorials-assembly-calibration-lerobot?utm_source=github&utm_medium=readme&utm_campaign=so-arm101-tutorials)
+- **The kit used in the videos:** [SO-ARM101 LeRobot robot arm kit](https://armdojo.com/products/so-arm101-lerobot-robot-arm-kit?utm_source=github&utm_medium=readme&utm_campaign=so-arm101-tutorials)
+
 <div align="center">
 
    <h1>Standard Open SO-100 & SO-101 Arms</h1>
