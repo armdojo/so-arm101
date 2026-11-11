@@ -19,7 +19,7 @@ This guide provides step-by-step instructions for installing an **Overhead Camer
 
 
 ## Required Components
-- **Web Camera** (1) - this is the [recommended model](https://www.amazon.com/dp/B082X91MPP).
+- **Web Camera** (1) - a clip-on USB webcam whose camera can be taken off its base (see Step 1). For a camera with a known fit, use the [32x32 camera module version](../Overhead_Cam_Mount_32x32_UVC_Module/README.md) with the [ArmDojo 32 mm USB camera module](https://armdojo.com/products/usb-camera-module-1080p-wide-angle-lerobot?utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=camera-mount).
 - **3D-printed parts**
     - [Arm Base](stl/arm_base.stl) (1 per follower arm)
     - [Camera Mount Bottom](stl/cam_mount_bottom.stl) (1)

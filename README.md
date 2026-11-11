@@ -33,7 +33,7 @@
     <p>Build Your Own SO-101 Robot!</p>
 </h2>
 
-The SO‑101 is the next‑generation version of the SO‑100 robot arm, originally designed by the [RobotStudio](https://www.therobotstudio.com) in collaboration with [Hugging Face](https://huggingface.co/lerobot). It has improved wiring, is easier to assemble (no gear removal) and uses updated motors for the leader arm.
+The SO‑101 is the next‑generation version of the SO‑100 robot arm, originally designed by the [RobotStudio](https://github.com/TheRobotStudio/SO-ARM100) in collaboration with [Hugging Face](https://huggingface.co/lerobot). It has improved wiring, is easier to assemble (no gear removal) and uses updated motors for the leader arm.
 
 These arms are designed to work seamlessly with the open‑source 🤗 LeRobot library. Join our community on [Discord](https://discord.gg/ggrqhPTsMe) to collaborate on both hardware and software, and help make end‑to‑end AI for robotics more accessible.
 
@@ -50,7 +50,7 @@ You have two options:
    - 3D print the parts (or order the 3D printed parts), explained in [Printing the Parts](#printing-the-parts).
    - Follow our [Assembly Guide](https://huggingface.co/docs/lerobot/so101).
 - **Buy a Kit**
-   - Buy assembled arms or a parts kit from one of the vendors [here](#kits).
+   - Buy an assembled kit or a parts kit from ArmDojo, see [Kits](#kits).
    - Optionally follow our [Assembly Guide](https://huggingface.co/docs/lerobot/so101).
 
 ### Setup with LeRobot 🤗
@@ -62,57 +62,48 @@ This repository also includes a range of optional hardware designs such as a rai
 
 ## Kits
 
-You can find all optional for SO-100/SO-101 kits here:
+SO-101 kits and parts kits from [ArmDojo](https://armdojo.com/?utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=kits):
 
-- from Seeed studio :earth_africa: [International](https://www.seeedstudio.com/SO-ARM100-Low-Cost-AI-Arm-Kit.html) or :cn: [China](https://item.taobao.com/item.htm?id=878010637397&skuId=5915703371829&spm=a213gs.v2success.0.0.4cbf4831mkqWLn) or :jp: [Akizuki Denshi](https://akizukidenshi.com/catalog/g/g131169/) or [Aliexpress](https://www.aliexpress.com/item/3256808696884714.html?gatewayAdapt=4itemAdapt) (They include **3d printed kits**)
-- from WowRobo :earth_africa: [International](https://shop.wowrobo.com/products/so-arm101-diy-kit-assembled-version-1) or :cn: [China](https://item.taobao.com/item.htm?ft=t&id=860171734711) (They include **assembled** versions)
-- from RobotEd :switzerland: [Switzerland](https://roboted.ch/en/shop/so-101-robot-arm-kit) (They include **3d printed frame kits**, **electronics kits** and **complete arm kits**)
-- from Robonine :earth_africa: [International](https://robonine.com/shop/so-arm101-black-white-robotic-arm-kit/) (They include **parts** kits with a wrist camera and an ArUco cube)
-- from PartaBot :us: [US](https://partabot.com) (They include **assembled** versions, and also sell LeKiwi and Koch robots)
-- from ForgeMotion Labs :us: [US](https://forgemotionlabs.com/products) or [Amazon US](https://www.amazon.com/s?me=A3TE39P97BKL59) (They include **3d printed frame kits**, **electronics kits** and **complete arm kits**)
-- from RoboSEasy :kr: [South Korea](https://smartstore.naver.com/roboseasy)
-- from NeoBot :cn: [China](https://item.taobao.com/item.htm?ft=t&id=957685951340)
-- from Autodiscovery :eu: [EU](https://autodiscovery.eu/en/products/so-101-kit??utm_source=hf&utm_medium=shop&utm_content=web)
-
-Additionally you can find SO-100 follower arm kit (without leader arm) on [Phospho](https://robots.phospho.ai). It can be especially useful if you own a VR headset.
+- [SO-ARM101 LeRobot robot arm kit](https://armdojo.com/products/so-arm101-lerobot-robot-arm-kit?utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=kits): leader + follower arms, from a servo set or DIY kit up to assembled arms with wrist and overhead cameras (the kit used in our [video tutorials](https://armdojo.com/pages/so-arm101-downloads?utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=kits))
+- [SO-ARM101 First Training Kit](https://armdojo.com/products/so-arm101-first-training-kit?utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=kits): the arm kit plus 100 colored wooden cubes and a tray for your first pick-and-place dataset
+- [SO-101 DIY electronics kit, leader + follower](https://armdojo.com/products/so-101-diy-electronics-kit-feetech-leader-follower?utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=kits): 12 Feetech STS3215 servos, 2 bus servo adapters, cables and clamps (print your own parts)
+- [SO-101 single-arm electronics kit](https://armdojo.com/products/so-101-single-arm-electronics-kit-feetech?utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=kits): 6 STS3215 servos + bus servo adapter + cables, follower (12 V) or leader (7.4 V)
+- [SO-101 builder's pack (no servos)](https://armdojo.com/products/so-101-builders-pack-hardware-no-servos?utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=kits) and [joint spares kit](https://armdojo.com/products/so-101-joint-spares-kit-horns-cables?utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=kits): adapter board, metal horns, cables and clamps
+- [LeRobot camera kit](https://armdojo.com/products/lerobot-camera-kit-wrist-overhead-usb-cameras?utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=kits): wrist + overhead USB cameras for data collection
 
 ## Sourcing Parts
 
-The follower and leader arm for this teleoperation setup will almost the same off the shelf parts (except for the motors). If you plan on creating the classic teleoperation set up to be used with the `LeRobot` library please buy from the Parts for Two Arms below. 
-
-We only have links for US, EU, CN, and JP for now. If you find links for other countries, please create an issue or PR so that we add them to the list. Note that prices and items may vary depending on geographic location.
+The follower and leader arm for this teleoperation setup use almost the same off-the-shelf parts (except for the motors). If you plan on creating the classic teleoperation setup to be used with the `LeRobot` library, get the Parts for Two Arms below. Every part in these tables is available from the [ArmDojo store](https://armdojo.com/?utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=bom).
 
 > [!IMPORTANT]  
-> The STS3215 motors for the follower arm comes in two sizes. The 7.4V has a stall torque of 16.5kg.cm at 6V (and likely slightly less for a 5V power supply). The 12V version has a stall torque of 30kg.cm. While we found the 7.4V to be sufficient, if you would like more powerful motors you can buy the 12V version [here](https://www.alibaba.com/product-detail/6PCS-12V-30KG-STS3215-High-Torque_1601216757543.html). Note if you do this, you will also have to buy a 12V 5A+ power supply instead of a 5V one. The leader arm is always 7.4V for the SO101.
+> The STS3215 motors for the follower arm come in two versions. The 7.4V has a stall torque of 16.5kg.cm at 6V (and likely slightly less for a 5V power supply). The 12V version (C018) has a stall torque of 30kg.cm. While we found the 7.4V to be sufficient, if you would like more powerful motors you can get the [12V version](https://armdojo.com/products/feetech-sts3215-serial-bus-servo?variant=50758001230063&utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=bom). Note if you do this, you will also need a [12V 5A power supply](https://armdojo.com/products/servo-power-adapter-12v-5a-dc-5-5x2-1?utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=bom) instead of a 5V one. The leader arm is always 7.4V for the SO101.
 
 #### Parts For Two Arms (Follower and Leader Setup):
 
-| Part                                        | Amount | Unit Cost (US) | Buy US                                                                                                    | Unit Cost (EU) | Buy EU                                                                                            | Unit Cost (RMB) | Buy CN                                                                          | Unit Cost (JPY) | Buy JP                                                                          |
-| ------------------------------------------- | ------ | -------------- | --------------------------------------------------------------------------------------------------------- | -------------- | ------------------------------------------------------------------------------------------------- | --------------- | ------------------------------------------------------------------------------- | --------------- | ------------------------------------------------------------------------------- |
-| STS3215 Servo 7.4V, 1/345 gear (C001) **<sup>[2](#leaderbundle)</sup>  | 7     | $13.89            | [Alibaba](https://www.alibaba.com/product-detail/Top-Seller-Low-Cost-Feetech-STS3215_1600999461525.html)         | €12.2           | [Alibaba](https://www.alibaba.com/product-detail/Top-Seller-Low-Cost-Feetech-STS3215_1600999461525.html) | ￥97.72         | [TaoBao](https://item.taobao.com/item.htm?id=712179366565&skuId=5268252241438)  | ￥2,980         | [Akizuki Denshi](https://akizukidenshi.com/catalog/g/g116312/)  |
-| STS3215 Servo 7.4V, 1/191 gear (C044) **<sup>[2](#leaderbundle)</sup>   | 2     | $13.89            | [Alibaba](https://www.alibaba.com/product-detail/Feetech-STS3215-SO-ARM101-Servo-7_1601430747897.html?spm=a2747.product_manager.0.0.59a371d2W4e0SR)         | €12.2           | [Alibaba](https://www.alibaba.com/product-detail/Feetech-STS3215-SO-ARM101-Servo-7_1601430747897.html?spm=a2747.product_manager.0.0.59a371d2W4e0SR) | ￥97.72         | -  | ￥2,980         | [Akizuki Denshi](https://akizukidenshi.com/catalog/g/g131131/)  |
-| STS3215 Servo 7.4V, 1/147 gear (C046) **<sup>[2](#leaderbundle)</sup>    | 3     | $13.89            | [Alibaba](https://www.alibaba.com/product-detail/Feetech-STS3215-SO-ARM101-Servo-7_1601430760797.html?spm=a2747.product_manager.0.0.167371d25QeX3F)         | €12.2           | [Alibaba](https://www.alibaba.com/product-detail/Feetech-STS3215-SO-ARM101-Servo-7_1601430760797.html?spm=a2747.product_manager.0.0.167371d25QeX3F) | ￥97.72         | -  | ￥2,980         | [Akizuki Denshi](https://akizukidenshi.com/catalog/g/g131132/)  |
-| Motor Control Board                         | 2      | $10.6           | [Amazon](https://www.amazon.com/Waveshare-Integrates-Control-Circuit-Supports/dp/B0CTMM4LWK/)             | €11.4            | [Amazon](https://www.amazon.fr/-/en/dp/B0CJ6TP3TP/)                                               | ￥27            | [TaoBao](https://detail.tmall.com/item.htm?id=738817173460&skuId=5096283384143) | ￥980         | [Akizuki Denshi](https://akizukidenshi.com/catalog/g/g131227/)  |
-| USB-C Cable 2 pcs                           | 1      | $7             | [Amazon](https://www.amazon.com/Charging-etguuds-Charger-Braided-Compatible/dp/B0B8NWLLW2/?th=1)          | €7             | [Amazon](https://www.amazon.fr/dp/B07BNF842T/)                                                    | ￥23.9\*2       | [TaoBao](https://detail.tmall.com/item.htm?id=44425281296&skuId=5611379016222)  | ￥1,498         | [Amazon](https://www.amazon.co.jp/dp/B0C3H9L6KZ)  |
-| Power Supply    | 2      | $10            | [Amazon](https://www.amazon.com/Facmogu-Switching-Transformer-Compatible-5-5x2-1mm/dp/B087LY41PV/)        | €15.7            | [Amazon](https://www.amazon.fr/-/en/dp/B01HRR9GY4/)                                               | ￥22.31         | [TaoBao](https://item.taobao.com/item.htm?id=544824248494&skuId=4974994129990)  | ￥1,550         | [Akizuki Denshi](https://akizukidenshi.com/catalog/g/g106238/)  |
-| Table Clamp 4pcs                            | 1      | $9             | [Amazon](https://www.amazon.com/TAODAN-Trigger-Ratchet-Woodworking-Processes/dp/B0DJNXF8WH?rps=1&sr=1-18) | €9.7 | [Amazon](https://www.amazon.fr/Connex-COXT865210-Lot-Serre-joints-bricolage/dp/B00NA3T2CQ)      | ￥5.2*4 | [TaoBao](https://detail.tmall.com/item.htm?id=801399113134&skuId=5633627126649)                   | ￥2,200         | [Amazon](https://www.amazon.co.jp/dp/B0DJNXF8WH)  |
-| Screwdriver Set<sup>[1](#myfootnote1)</sup> | 1      | $6             | [Amazon](https://www.amazon.com/Precision-Phillips-Screwdriver-Electronics-Computer/dp/B0DB227RTH)        | €9            | [Amazon](https://www.amazon.fr/Vinabo-Magnétique-Electronique-Réparation-Informatique/dp/B0BNQBNFFJ)                                                    | ￥14.9          | [TaoBao](https://detail.tmall.com/item.htm?id=675684600845&skuId=4856851392176) | ￥500         | [Amazon](https://www.amazon.co.jp/dp/B01MDNJVMN)  |
-| Total                                       | ---    | $229.88           | ---                                                                                                       | €226.3           | ---                                                                                               | ￥1343.16       | ---                                                                             | ￥44,530         | ---                                                                             |
+| Part | Amount | Buy |
+| --- | --- | --- |
+| STS3215 Servo 7.4V, 1/345 gear (C001) **<sup>[2](#leaderbundle)</sup> | 7 | [ArmDojo](https://armdojo.com/products/feetech-sts3215-serial-bus-servo?variant=50758001262831&utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=bom) |
+| STS3215 Servo 7.4V, 1/191 gear (C044) **<sup>[2](#leaderbundle)</sup> | 2 | [ArmDojo](https://armdojo.com/products/feetech-sts3215-serial-bus-servo?variant=50758001295599&utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=bom) |
+| STS3215 Servo 7.4V, 1/147 gear (C046) **<sup>[2](#leaderbundle)</sup> | 3 | [ArmDojo](https://armdojo.com/products/feetech-sts3215-serial-bus-servo?variant=50758001328367&utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=bom) |
+| Motor Control Board (bus servo adapter) | 2 | [ArmDojo](https://armdojo.com/products/waveshare-bus-servo-adapter-board?variant=50874126893295&utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=bom) |
+| USB-C Cable | 2 | [ArmDojo](https://armdojo.com/products/usb-a-to-usb-c-cable-6a-1m?utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=bom) |
+| Power Supply (adjustable, set to 5 V for 7.4V servos) | 2 | [ArmDojo](https://armdojo.com/products/servo-power-adapter-7-4v-8-4v-3a-dc-5-5x2-1?utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=bom) |
+| Table Clamp 4pcs | 1 | [ArmDojo](https://armdojo.com/products/g-clamps-heavy-duty-4-pack-robot-arm-mount?utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=bom) |
+| Screwdriver Set<sup>[1](#myfootnote1)</sup> | 1 | any precision set with Phillips #0 and #1 |
 
-<a name="leaderbundle">2</a>: You can buy **all six STS3215 servos needed for the SO-101 leader arm**  
-(3 × 1/147 gear (C046), 2 × 1/191 gear (C044), 1 × 1/345 gear (C001)) in a single bundle on [Alibaba](https://www.alibaba.com/product-detail/6PCS-7-4V-STS3215-Servos-for_1601428584027.html?spm=a2747.product_manager.0.0.757c2c3clU7uH3).
+<a name="leaderbundle">2</a>: All six STS3215 servos needed for the SO-101 leader arm  
+(3 × 1/147 gear (C046), 2 × 1/191 gear (C044), 1 × 1/345 gear (C001)) come as one [leader arm set](https://armdojo.com/products/so-101-single-arm-electronics-kit-feetech?variant=50885385781487&utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=bom), with the bus servo adapter and cables. For a 12V follower plus leader, the [SO-ARM101 12-servo set](https://armdojo.com/products/feetech-sts3215-serial-bus-servo?variant=50758001361135&utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=bom) has 6 × 12V C018 and the 6 leader servos.
 
 #### Parts for One Follower Arm:
 
-| Part                                        | Amount | Unit Cost (US) | Buy US                                                                                                                                                | Unit Cost (EU) | Buy EU                                                                                                                                                | Unit Cost (RMB) | Buy CN                                                                          | Unit Cost (JPY) | Buy JP                                                                          |
-| ------------------------------------------- | ------ | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- | ------------------------------------------------------------------------------- | --------------- | ------------------------------------------------------------------------------- |
-| STS3215 Servo 7.4V, 1/345 gear (C001)    | 6      | $13.89            | [Alibaba](https://www.alibaba.com/product-detail/Top-Seller-Low-Cost-Feetech-STS3215_1600999461525.html?spm=a2747.product_manager.0.0.11be71d2ARQb82) | €12.2            | [Alibaba](https://www.alibaba.com/product-detail/Top-Seller-Low-Cost-Feetech-STS3215_1600999461525.html?spm=a2747.product_manager.0.0.11be71d2ARQb82) | ￥97.72         | [TaoBao](https://item.taobao.com/item.htm?id=712179366565&skuId=5268252241438)  | ￥2,980         | [Akizuki Denshi](https://akizukidenshi.com/catalog/g/g116312/)  |
-| Motor Control Board                         | 1      | $10.6            | [Amazon](https://www.amazon.com/Waveshare-Integrates-Control-Circuit-Supports/dp/B0CTMM4LWK/)                                                         | €11.4            | [Amazon](https://www.amazon.fr/-/en/dp/B0CJ6TP3TP/)                                                                                                   | ￥27            | [TaoBao](https://detail.tmall.com/item.htm?id=738817173460&skuId=5096283384143) | ￥980         | [Akizuki Denshi](https://akizukidenshi.com/catalog/g/g131227/)  |
-| USB-C Cable 2 pcs                           | 1      | $7             | [Amazon](https://www.amazon.com/Charging-etguuds-Charger-Braided-Compatible/dp/B0B8NWLLW2/?th=1)                                                      | €7             | [Amazon](https://www.amazon.fr/dp/B07BNF842T/)                                                                                                        | ￥23.9          | [TaoBao](https://detail.tmall.com/item.htm?id=44425281296&skuId=5611379016222)  | ￥1,498         | [Amazon](https://www.amazon.co.jp/dp/B0C3H9L6KZ)  |
-| Power Supply    | 1      | $10            | [Amazon](https://www.amazon.com/Facmogu-Switching-Transformer-Compatible-5-5x2-1mm/dp/B087LY41PV/)                                                    | €15.7            | [Amazon](https://www.amazon.fr/-/en/dp/B01HRR9GY4/)                                                                                                   | ￥22.31         | [TaoBao](https://item.taobao.com/item.htm?id=544824248494&skuId=4974994129990)  | ￥1,550         | [Akizuki Denshi](https://akizukidenshi.com/catalog/g/g106238/)  |
-| Table Clamp 2pcs                            | 1      | $5             | [Amazon](https://www.amazon.com/Mr-Pen-Carpenter-Clamp-6inch/dp/B092L925J4/)                                                                          | €8             | [Amazon](https://www.amazon.fr/-/en/dp/B08HZ1QRBF/)                                                                                                   | ￥7.8           | [TaoBao](https://detail.tmall.com/item.htm?id=738636473238&skuId=5505939904942) | ￥2,200         | [Amazon](https://www.amazon.co.jp/dp/B0DJNXF8WH)  |
-| Screwdriver Set<sup>[1](#myfootnote1)</sup> | 1      | $6             | [Amazon](https://www.amazon.com/Precision-Phillips-Screwdriver-Electronics-Computer/dp/B0DB227RTH)                                                    | €9            | [Amazon](https://www.amazon.fr/Vinabo-Magnétique-Electronique-Réparation-Informatique/dp/B0BNQBNFFJ)                                                                                                        | ￥14.9          | [TaoBao](https://detail.tmall.com/item.htm?id=675684600845&skuId=4856851392176) | ￥500         | [Amazon](https://www.amazon.co.jp/dp/B01MDNJVMN)  |
-| Total                                       | ---    | $121.94           | ---                                                                                                                                                   | €124.3        | ---                                                                                                                                                   | ￥682.23        | ---                                                                             | ￥24,414        | ---                                                                             |
+| Part | Amount | Buy |
+| --- | --- | --- |
+| STS3215 Servo 7.4V, 1/345 gear (C001) | 6 | [ArmDojo](https://armdojo.com/products/feetech-sts3215-serial-bus-servo?variant=50758001262831&utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=bom) |
+| Motor Control Board (bus servo adapter) | 1 | [ArmDojo](https://armdojo.com/products/waveshare-bus-servo-adapter-board?variant=50874126958831&utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=bom) |
+| USB-C Cable | 1 | [ArmDojo](https://armdojo.com/products/usb-a-to-usb-c-cable-6a-1m?utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=bom) |
+| Power Supply (adjustable, set to 5 V for 7.4V servos) | 1 | [ArmDojo](https://armdojo.com/products/servo-power-adapter-7-4v-8-4v-3a-dc-5-5x2-1?utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=bom) |
+| Table Clamp 2pcs | 1 | [ArmDojo](https://armdojo.com/products/g-clamps-heavy-duty-4-pack-robot-arm-mount?utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=bom) (4-pack) |
+| Screwdriver Set<sup>[1](#myfootnote1)</sup> | 1 | any precision set with Phillips #0 and #1 |
 
 <a name="myfootnote1">1</a>: You do not need to use this exact screwdriver set, but it is highly recommended to have phillips head screw driver sizes #0 and #1 for easiest screw installation and removal. These are both standard sizes which will likely appear in most small screwdriver sets.
 
@@ -125,7 +116,7 @@ The STL files provided are ready to print on many FDM printers. Below are the te
    1. Material: PLA+
    2. Nozzle Diameter and Precision: 0.4mm nozzle diameter at 0.2mm layer height or 0.6mm nozzle at 0.4mm layer height.
    3. Infill Density: 15%
-   4. Sample Printers: [Prusa MINI+](https://www.prusa3d.com/product/original-prusa-mini-semi-assembled-3d-printer-4/), [UP Plus 2](https://shop.tiertime.com/product/tiertime-up-plus-2-3d-printer/), [Creality Ender 3](https://www.amazon.com/Comgrow-Creality-Ender-Aluminum-220x220x250mm/dp/B07BR3F9N6/), [Bambu Lab A/P/X-series](https://bambulab.com)
+   4. Sample Printers: Prusa MINI+, UP Plus 2, Creality Ender 3, Bambu Lab A/P/X-series
 
 ### Step 2: Set up the Printer
    1. Ensure that the printer is calibrated and the bed level is correctly set using the printer specific instructions.
@@ -193,7 +184,7 @@ This table contains all individual files:
    2. Remove any support material from parts.
 
 ### Don't Own a 3D printer?
-Go here: [Printing services](./3DPRINT.md)
+Go here: [Printing services](./3DPRINT.md), or get the arms already assembled in the [SO-ARM101 kit](https://armdojo.com/products/so-arm101-lerobot-robot-arm-kit?variant=50757999755503&utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=3dprint).
 
 ## Optional Hardware
 <!--Note: no hardware emoji here so links work correctly-->
@@ -238,7 +229,6 @@ For bird’s‑eye views in single or bi‑manual setups.
 #### 4. Tactile Sensing (AnySkin)  
 Add touch sensing to your gripper.  
 
-[→ Find on WOWROBO](https://shop.wowrobo.com/products/enhanced-anyskin-premium-crafted-editionwowskin)
 
 <img src="media/tactile_sensor_anyskin.png" alt="AnySkin Sensor" width="150">
 

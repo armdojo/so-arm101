@@ -18,7 +18,7 @@ This guide provides step-by-step instructions for installing an **Overhead Camer
 
 
 ## Required Components
-- **Camera Module** (1) - A 32mm x 32mm camera module. This is the [tested / recommended model](https://www.amazon.com/dp/B0CLRJZG8D), but many types are available.
+- **Camera Module** (1) - A 32mm x 32mm camera module. For example the [ArmDojo 32 mm USB camera module](https://armdojo.com/products/usb-camera-module-1080p-wide-angle-lerobot?utm_source=github&utm_medium=referral&utm_campaign=so-arm101-repo&utm_content=camera-mount); many types are available.
 - **3D-printed parts**
     - [Arm Base](stl/arm_base.stl) (1 per follower arm)
     - [Camera Mount Bottom](stl/cam_mount_bottom.stl) (1)

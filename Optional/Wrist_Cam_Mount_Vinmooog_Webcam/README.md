@@ -5,7 +5,7 @@ This guide provides step-by-step instructions for installing a **wrist camera** 
 
 ## Required Components
 ### Hardware:
-- [Vinmooog Webcam](https://www.amazon.fr/Vinmooog-equipement-Microphone-Enregistrement-conf%C3%A9rences/dp/B0BG1YJWFN/)
+- Vinmooog webcam (the mount is shaped for this model)
 - **3D-printed parts:**
   - [Modified wirst](Optional/Wrist_Cam_Mount_Vinmooog_Webcam/stl/Updated_Wrist_Camera_Insert.stl) (Print **1x**), not needed for SO-101
   - [Mount](Optional/Wrist_Cam_Mount_Vinmooog_Webcam/stl/Webcam_Mount_Wrist.stl) (Print **1x**)
